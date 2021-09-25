@@ -1,0 +1,43 @@
+{
+    "name": "xpand4b/funny-error-pages",
+    "description": "Adds funny error pages to your Laravel application.",
+    "type": "library",
+    "keywords": [
+        "xpand4b",
+        "laravel",
+        "error",
+        "error page",
+        "funny error pages",
+        "404"
+    ],
+    "homepage": "https://github.com/xPand4B/laravel-funny-error-pages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Heinzl",
+            "email": "xpand.4beatz@gmail.com",
+            "homepage": "https://xpand4b.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xPand4B\\FunnyErrorPages\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "xPand4B\\FunnyErrorPages\\FunnyErrorPagesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -34,5 +34,5 @@ return [
     |
     */
 
-    'redirect_link' => url('/'),
+    'redirect_link' => '/',
 ];

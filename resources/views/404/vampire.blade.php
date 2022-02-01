@@ -27,7 +27,7 @@
             <div class="page-ms mt-5 pt-5">
                 <p class="page-msg">{{ __('funny-error-pages::funny-error-pages.404.vampire.title') }}</p>
                 <button class="go-back">
-                    <a href="{{ url('/') }}">{{ __('funny-error-pages::funny-error-pages.404.back-home') }}</a>
+                    <a href="{{ url(config('funny-error-pages.redirect_link')) }}">{{ __('funny-error-pages::funny-error-pages.404.back-home') }}</a>
                 </button>
             </div>
         </div>

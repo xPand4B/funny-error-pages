@@ -24,7 +24,7 @@
                     alt="404 Not Found text"
                 >
                 <a
-                    href="{{ config('funny-error-pages.redirect_link') }}"
+                    href="{{ url(config('funny-error-pages.redirect_link')) }}"
                     class="btn-go-home text-uppercase"
                 >
                     {{ __('funny-error-pages::funny-error-pages.404.back-home') }}

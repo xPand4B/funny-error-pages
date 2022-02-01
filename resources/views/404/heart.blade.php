@@ -17,7 +17,7 @@
 
         <h1>{{ __('funny-error-pages::funny-error-pages.404.page-not-found') }}
             <small>
-                <a href="{{ config('funny-error-pages.redirect_link') }}">{{ __('funny-error-pages::funny-error-pages.404.back-home') }}</a>
+                <a href="{{ url(config('funny-error-pages.redirect_link')) }}">{{ __('funny-error-pages::funny-error-pages.404.back-home') }}</a>
             </small>
         </h1>
     </div>

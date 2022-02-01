@@ -15,7 +15,7 @@
             <div class="content_box_404">
                 <h2 class="text-center">{{ __('funny-error-pages::funny-error-pages.404.lost.title') }}</h2>
                 <p class="text-center">{{ __('funny-error-pages::funny-error-pages.404.lost.text') }}</p>
-                <a href="{{ config('funny-error-pages.redirect_link') }}" class="link_404">
+                <a href="{{ url(config('funny-error-pages.redirect_link')) }}" class="link_404">
                     {{ __('funny-error-pages::funny-error-pages.404.back-home') }}
                 </a>
             </div>
